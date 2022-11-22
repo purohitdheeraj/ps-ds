@@ -1,10 +1,10 @@
 const randomCipher = (strInput) => {
 	let letters =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!abcdefghijklmnopqrstuvwxyz0123456789";
+
 	let newCipher = "";
 
 	let shift = Math.floor(Math.random() * 66) + 1;
-	shift;
 
 	for (let i = 0; i < strInput.length; i++) {
 		let char = strInput[i];
